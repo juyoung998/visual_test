@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>My profile</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/intro.css">
+    <style>
+        table{
+            widows: 70%;
+            border:1px solid #222;
+            border-collapse: collapse;
+        }
+        thead{
+            background:#eee;
+        }
+        th, td{
+            border:1px solid #ccc;
+            padding:5px;
+            font-size:0.8em;
+        }
+        a, a:visited{
+            color:#222;
+            text-decoration: none;
+        }
+        #sns>ul{
+            padding-left:0;
+        }
+        #sns>ul>li{
+            display:inline-block;
+            width:80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 사이드바 -->
+        <aside>
+            <div id="namecard">
+                <img src="image/goldenretriever.jpg" alt="profile_image" width="210" height="210">
+                <h1>juyoung</h1>
+                <p style="color:#222">Iksan, Korea<br>99rlawndud@naver.com</p>
+            <div id="goal">
+                <p>Transcendence, it's already in me</p>
+            </div>
+            </div>  
+            <div id="sns">
+                <h1>sns</h1>
+                <ul>
+                    <li><a href="https://ko-kr.facebook.com/" target="_block">facebook</a></li>
+                    <li><a href="https://www.instagram.com/" target="_block">instagram</a></li>
+                </ul>
+            </div>      
+        </aside>
+        <div id="main">
+            <!-- 자기 소개 -->
+            <section>
+                <h2 class="subtitle">Who am I?</h2>
+                <p>I'm a biginner of web programmer.
+                    <br>I hope to keep going for my level:)
+                    <br>I'm interested in <mark style="background-color:rgb(204, 178, 204);">front-end</mark> skill.</p>
+            </section>
+
+            <!-- 경력 -->
+            <section>
+                <h2 class="subtitle">Career</h2>
+                <table>
+                    <caption><strong>Academic Background</strong></caption>
+                    <thead>
+                    <tr>
+                        <th>Place</th>
+                        <th>Major</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Dankook Univ</td>
+                        <td>Software</td>
+                        <td>2019.02.12~</td>
+                        <td>in school</td>
+                    </tr>
+                    <tr>
+                        <td>Il High school</td>
+                        <td></td>
+                        <td>2016.03.2~2019.02.01</td>
+                        <td>graduate</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- 숙련도 -->
+            <section>
+                <h2 class="subtitle">Skills</h2>
+                <ul>
+                    <li>Usable Programming Languages: C, C++, Python, Java</li>
+                    <li>I made my first HTML document on myself</li>
+                    <A href ="http://heartu.dothome.co.kr/start.html" style="color:blueviolet" target="_block">Click Me</A>
+                </ul>
+            </section>
+        </div>        
+    </div>
+</body>
+</html>
